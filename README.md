@@ -17,7 +17,7 @@
 
 ## notebooks
 
-**ttwitter_scraper**: Contains the code for our Twitter scraper.
+**twitter_scraper**: Contains the code for our Twitter scraper.
 
 **truthseeker_dataset_filtering**: Filtering process to retain only Covid-19-related tweets.
 
