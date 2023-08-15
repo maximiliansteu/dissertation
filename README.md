@@ -7,6 +7,9 @@ covid_df_false contains all tweets from the TruthSeeker dataset
 archive_kaggle_data contains all tweets from the Kaggle competition regarding fake news
 tweets_official contains all official tweet
 
+
+combined_df_sentiment_detailed_2023_06_30 is the intermediate feature_df, where we save our sentiment encodings
+
 ## notebooks
 
 twitter_scraper contains our scraper
