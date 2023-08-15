@@ -2,19 +2,23 @@
 
 ## data
 
-data contains all data-related files.
-covid_df_false contains all tweets from the TruthSeeker dataset
-archive_kaggle_data contains all tweets from the Kaggle competition regarding fake news
-tweets_official contains all official tweet
-
-
-combined_df_sentiment_detailed_2023_06_30 is the intermediate feature_df, where we save our sentiment encodings
+covid_df_false: Tweets sourced from the TruthSeeker dataset.
+archive_kaggle_data: Tweets from a Kaggle competition focused on fake news.
+tweets_official: Tweets scraped from official institutions.
+descriptive_stats: Summary statistics of our datasets.
+interest, novelty, and plausability_annotations: Backups of our LLM-based annotations.
+combined_df_sentiment_detailed_2023_06_30: Intermediate feature dataset, including sentiment encodings.
 
 ## notebooks
 
-twitter_scraper contains our scraper
-feature_extraction contains all the code from reading in our data and preprocessing it to extracting features and analyzing them.
-LLM_Annotator_ChatGPT contains the code for experimenting with our prompt design
-models contain all our models
+ttwitter_scraper: Contains the code for our Twitter scraper.
+truthseeker_dataset_filtering: Filtering process to retain only Covid-19-related tweets.
+feature_extraction: Preprocessing, feature extraction, and distribution analysis.
+LLM_annotator_MPT_7B: Initial experiments using the MPT-7B model (prior to adopting ChatGPT).
+LLM_annotator_ChatGPT: Experiments and code related to prompt designing using ChatGPT.
+models: Traditional ML model implementations and evaluations.
+FT_transformer_autogluon: Implementation of fitting our dataset to the FT_transformer.
 
 ## support
+
+support contains the VAD and concreteness ratings
