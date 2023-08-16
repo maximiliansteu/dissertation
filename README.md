@@ -16,6 +16,8 @@ Below you find a short description of files in each folder.
 
 **combined_df_sentiment_detailed_2023_06_30**: Intermediate feature dataset, including sentiment encodings.
 
+**feature_df**: Final dataframe with extracted features of interestingness.
+
 
 ## notebooks
 
