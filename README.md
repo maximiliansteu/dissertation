@@ -1,5 +1,7 @@
 # Dissertation Code
 
+Below you find a short description of files in each folder.
+
 ## data
 
 **covid_df_false**: Tweets sourced from the TruthSeeker dataset.
